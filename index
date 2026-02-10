@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .card {
+      background: rgba(0,0,0,0.3);
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 500px;
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+    p {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🚀 Hello, GitHub Pages!</h1>
+    <p>This website is deployed using GitHub Pages.</p>
+    <p>Edit <code>index.html</code> to customize it.</p>
+  </div>
+</body>
+</html>
