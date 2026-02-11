@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valentine Week for Dear Kunal  💘</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="kiss-background" aria-hidden="true"></div>
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <div class="acceptance-glow" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-content">
+      <p class="eyebrow">Valentine Week Special ✨</p>
+      <h1>For Khadoosh kannuu, with endless love 💖</h1>
+      <p class="subtitle">A week of kisses, hugs, and a thousand little reasons to smile. 🫂💋</p>
+      <div class="hero-actions">
+        <button class="primary" data-scroll="#week">Start the love story 💌</button>
+        <button class="ghost" id="sparkle">Send sparkles ✨</button>
+      </div>
+      <p class="love-line">“You are my safe place, my happiest hello, and my forever.”</p>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="heart-orbit"></div>
+      <div class="heart-orbit second"></div>
+      <div class="heart-core">💗</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="music">
+      <div class="music-card">
+        <h2>Love Music for Kunal 🎶</h2>
+        <p>Tap play to start a soft, romantic melody while the kisses and hearts float by.</p>
+        <div class="music-actions">
+          <button class="primary" id="musicToggle">Play love music ▶️</button>
+          <button class="ghost" id="musicBurst">Dance of hearts 💃</button>
+        </div>
+        <p class="music-status" id="musicStatus">Music is resting. Press play to begin. 💗</p>
+      </div>
+      <div class="gif-card">
+        <h3>Romantic Kiss GIF Glow 💋</h3>
+        <p>Waise to m daily he kissi de deti hu, but here is a close-up too.</p>
+        <div class="gif-frame">
+          <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExamw5d2U1dzI1ZHdheTh1eGJpZWg5Z2ZmczF3MnFlMWRxZXh6OHAyZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PF6e8Xq8dVnVX1BGLS/giphy.gif" alt="Romantic kiss gif background" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section id="week" class="week">
+      <h2>Valentine Week for Dear Kunal 🌹</h2>
+      <p class="section-note">Every day, a new reason to love you more. 💕</p>
+
+      <div class="week-grid">
+        <article class="day-card">
+          <h3>Rose Day 🌹</h3>
+          <p>Tumko kya jrurt hai, tum to khud he gulaab ho. 🌷</p>
+          <span class="tag">Blooming love</span>
+        </article>
+        <article class="day-card">
+          <h3>Propose Day 💍</h3>
+          <p>You will always be my, understand baby? 😘</p>
+          <span class="tag">Forever vibes</span>
+        </article>
+        <article class="day-card">
+          <h3>Chocolate Day 🍫</h3>
+          <p>Sweet like chocolate, warm like your smile. 🍬</p>
+          <span class="tag">Sugar rush</span>
+        </article>
+        <article class="day-card">
+          <h3>Teddy Day 🧸</h3>
+          <p>If I am here why you need another teddy, cuddle me. 🤗</p>
+          <span class="tag">Cozy hugs</span>
+        </article>
+        <article class="day-card">
+          <h3>Promise Day 🤞</h3>
+          <p>I promise to choose you, cheer for you, and love you daily . 💞</p>
+          <span class="tag">Always yours</span>
+        </article>
+        <article class="day-card">
+          <h3>Hug Day 🫂</h3>
+          <p>Come here,and hug me tight bcz it say everything our words can’t. 🫶</p>
+          <span class="tag">Heart to heart</span>
+        </article>
+        <article class="day-card">
+          <h3>Kiss Day 💋</h3>
+          <p>A kiss to remind you that you’re only mine . 😚</p>
+          <span class="tag">Sealed with love</span>
+        </article>
+        <article class="day-card highlight">
+          <h3>Valentine’s Day ❤️</h3>
+          <p>You gave me the reason to celebrate it ,Thanks and Love you kannuu. 🥹</p>
+          <span class="tag">Forever & always</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="love-notes">
+      <div class="note-card">
+        <h2>Hugs, kisses & a lot of love 🫂💋</h2>
+        <p>Every hug is a recharge, every kiss is a promise, and every smile from you is my favorite playlist. 🎶💗</p>
+
+<br>
+        <button class="primary" id="reveal">Open a love note 💌</button>
+      </div>
+      <div class="note-reveal" id="noteReveal" aria-live="polite">
+        <p>Hey Kunal, you are my sunshine on cloudy days and my heartbeat on the quiet ones. I love you bigger than the sky. 🌈✨</p>
+      </div>
+    </section>
+
+    <section class="special-notes" id="special-notes">
+      <div class="special-header">
+        <h2>Special Love Notes for khadoosshh 💞</h2>
+        <p class="section-note">Tiny notes, huge feelings, and a whole lot of emoji love. 🥰💌</p>
+        <button class="ghost" id="shuffleNotes">Shuffle love notes 🔁</button>
+      </div>
+      <div class="special-grid">
+        <article class="special-card" data-note-slot="0"></article>
+        <article class="special-card" data-note-slot="1"></article>
+        <article class="special-card" data-note-slot="2"></article>
+        <article class="special-card" data-note-slot="3"></article>
+      </div>
+    </section>
+
+    <section class="surprises" id="surprises">
+      <h2>Surprise Messages 🎁</h2>
+      <p class="section-note">Every tap opens a new surprise, just for you. 🥰</p>
+      <div class="surprise-board">
+        <div class="surprise-card">
+          <h3>Instant Surprise 💝</h3>
+          <p>Press the button and watch a sweet message appear with floating kisses.</p>
+          <button class="primary" id="surpriseButton">Open a surprise ✨</button>
+        </div>
+        <div class="surprise-reveal" id="surpriseReveal" aria-live="polite">
+          <p>Surprise loading... 💌</p>
+        </div>
+      </div>
+      <div class="surprise-grid">
+        <button class="surprise-tile" data-surprise="Every smile of yours is a holiday to celebrate. 🎉">Tap me 💘</button>
+        <button class="surprise-tile" data-surprise="Your hugs are my favorite blanket. 🫂">Tap me 💞</button>
+        <button class="surprise-tile" data-surprise="A romantic kiss from far away, just for you. 😘">Tap me 💋</button>
+        <button class="surprise-tile" data-surprise="You make the world softer and sweeter. 🍬">Tap me 🌸</button>
+      </div>
+    </section>
+
+    <section class="secrets">
+      <h2>Secret Messages 🔐</h2>
+      <p class="section-note">Unlock the secrets with gentle taps and a love code. 💗</p>
+      <div class="secret-vault">
+        <div class="secret-input">
+          <label for="secretCode">Enter the love code:</label>
+          <div class="input-row">
+            <input id="secretCode" type="text" placeholder="Hint: khadoosshh" autocomplete="off">
+            <button class="ghost" id="unlockSecrets">Unlock 💌</button>
+          </div>
+          <p class="secret-hint" id="secretHint">Secrets are waiting... ✨</p>
+        </div>
+        <div class="secret-grid" id="secretGrid">
+          <div class="secret-card" data-secret="You are the sweetest surprise in every chapter of my life. 💞">
+            <span>Tap to reveal 💝</span>
+          </div>
+          <div class="secret-card" data-secret="A thousand kisses for a thousand reasons, all you. 💋">
+            <span>Tap to reveal 💗</span>
+          </div>
+          <div class="secret-card" data-secret="Holding your hand feels like home. 🤝">
+            <span>Tap to reveal 🫶</span>
+          </div>
+          <div class="secret-card" data-secret="Your love is the secret song in my heart. 🎶">
+            <span>Tap to reveal 🎵</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="secret-game" id="secret-game">
+      <h2>Secret Love Game 💘</h2>
+      <p class="section-note">Find the hidden heart to unlock a secret love message. 🫶</p>
+      <div class="game-panel">
+        <p class="game-status" id="gameStatus">Tap a tile to find the hidden heart. 💖</p>
+        <div class="game-grid">
+          <button class="game-tile" data-tile="0">?</button>
+          <button class="game-tile" data-tile="1">?</button>
+          <button class="game-tile" data-tile="2">?</button>
+          <button class="game-tile" data-tile="3">?</button>
+          <button class="game-tile" data-tile="4">?</button>
+          <button class="game-tile" data-tile="5">?</button>
+          <button class="game-tile" data-tile="6">?</button>
+          <button class="game-tile" data-tile="7">?</button>
+          <button class="game-tile" data-tile="8">?</button>
+        </div>
+        <button class="primary" id="resetGame">Play again 💌</button>
+      </div>
+    </section>
+
+    <section class="proposal" id="proposal">
+      <div class="proposal-card">
+        <div class="cut-note">
+          <p class="note-title">Tum to kroge ni khadoosshh jo ho.... ✂️</p>
+          <h2>Kannuu, will you be my forever khadoosh? 💍</h2>
+          <p class="note-body">Tension mt lo shadi k liye nhi hai ye uske liye to IAS bnne baad he puchungi. 💖</p>
+          <p class="note-emoji">💌💋🫂💞</p>
+        </div>
+        <div class="proposal-media">
+          <div class="gif-frame">
+            <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGxhcG5mdGEwaWRvZGoyMjlyM3VxNmJka2R5dWJ3eDdnaWdqeWJmZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GaW7Duawe9YHuGrYlc/giphy.gif" alt="Romantic heart gif" loading="lazy">
+          </div>
+          <p class="proposal-caption">Say yes, no ka to option he nhi hai.. 🎆</p>
+        </div>
+        <div class="proposal-actions">
+          <button class="primary" id="proposalYes">Yes, I choose you 💖</button>
+          <button class="ghost" id="proposalMaybe">Always yours anyway 💌</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="final">
+      <h2>So…  Do you love me and will you keep loving me like this? 🥹</h2>
+      <p>Because loving you feels like home, every single day. 💘</p>
+      <div class="final-actions">
+        <button class="primary" id="yesBtn">Yes, forever ❤️</button>
+        <button class="ghost" id="hugBtn">Send a hug 🫂</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with all the love in the universe for Kunal. 💫</p>
+  </footer>
+
+  <div class="love-popup" id="lovePopup" role="dialog" aria-live="polite" aria-hidden="true">
+    <div class="love-popup-card">
+      <p class="love-popup-title">Love you, Kaannuu! 💗</p>
+      <p class="love-popup-body">You said yes,and my heart just danced in fireworks. 🎆💋</p>
+      <button class="ghost" id="closePopup">Close 💌</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
